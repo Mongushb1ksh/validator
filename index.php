@@ -3,7 +3,7 @@
 require_once 'vendor/autoload.php';
 
 use function Validator\validate;
-use Rules;
+use App\Validator\Rules;
 
 $data = [
     'name' => '',
