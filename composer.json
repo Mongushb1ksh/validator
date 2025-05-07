@@ -1,0 +1,25 @@
+{
+    "name": "mongushb1ksh/validator",
+    "description": "Module for working with arrays ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Belek",
+        "email": "bitelgra@icloud.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Collect\\": "src/"
+      },
+      "files": [
+        "src/Rules.php"
+      ]
+    }
+   }
+   
